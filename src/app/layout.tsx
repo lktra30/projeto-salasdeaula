@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { SalaProvider } from "@/context/SalaContext";
 import { CacheStatus } from "@/components/CacheStatus";
+import { MobileNavigation } from "@/components/MobileNavigation";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,10 +28,12 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased pb-16 lg:pb-0`}
+        suppressHydrationWarning={true}
       >
         <SalaProvider>
           {children}
+          <MobileNavigation />
           <CacheStatus />
         </SalaProvider>
       </body>

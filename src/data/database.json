@@ -1,0 +1,796 @@
+{
+  "cursos": [
+    {
+      "id": "incompany",
+      "nome": "InCompany",
+      "descricao": "Cursos personalizados para empresas",
+      "duracao": "6 meses",
+      "modalidade": "presencial"
+    },
+    {
+      "id": "mastar-t1",
+      "nome": "Mastar T1",
+      "descricao": "Curso Mastar nível T1",
+      "duracao": "4 meses",
+      "modalidade": "presencial"
+    },
+    {
+      "id": "mastar-t2",
+      "nome": "Mastar T2",
+      "descricao": "Curso Mastar nível T2",
+      "duracao": "4 meses",
+      "modalidade": "presencial"
+    },
+    {
+      "id": "mastar-t3",
+      "nome": "Mastar T3",
+      "descricao": "Curso Mastar nível T3",
+      "duracao": "4 meses",
+      "modalidade": "presencial"
+    },
+    {
+      "id": "voxtime",
+      "nome": "VoxTime",
+      "descricao": "Curso de comunicação e apresentação",
+      "duracao": "3 meses",
+      "modalidade": "presencial"
+    },
+    {
+      "id": "intensivox",
+      "nome": "IntensiVox",
+      "descricao": "Curso intensivo de oratória",
+      "duracao": "2 meses",
+      "modalidade": "presencial"
+    }
+  ],
+  "turmas": [
+    {
+      "id": "turma-001",
+      "nome": "InCompany - Turma A",
+      "cursoId": "incompany",
+      "salaId": "sala-1",
+      "professorId": "prof-001",
+      "periodo": "2024-1",
+      "horario": "09:00-12:00",
+      "diaSemana": "segunda-feira",
+      "dataInicio": "2024-03-04",
+      "dataFim": "2024-08-26",
+      "vagas": 18,
+      "vagasOcupadas": 6,
+      "status": "ativa"
+    },
+    {
+      "id": "turma-002",
+      "nome": "Mastar T1 - Turma B",
+      "cursoId": "mastar-t1",
+      "salaId": "sala-2",
+      "professorId": "prof-002",
+      "periodo": "2024-1",
+      "horario": "14:00-17:00",
+      "diaSemana": "terça-feira",
+      "dataInicio": "2024-03-05",
+      "dataFim": "2024-07-02",
+      "vagas": 18,
+      "vagasOcupadas": 4,
+      "status": "ativa"
+    },
+    {
+      "id": "turma-003",
+      "nome": "Mastar T2 - Turma C",
+      "cursoId": "mastar-t2",
+      "salaId": "sala-3",
+      "professorId": "prof-003",
+      "periodo": "2024-1",
+      "horario": "16:00-19:00",
+      "diaSemana": "quarta-feira",
+      "dataInicio": "2024-03-06",
+      "dataFim": "2024-07-03",
+      "vagas": 18,
+      "vagasOcupadas": 3,
+      "status": "ativa"
+    },
+    {
+      "id": "turma-004",
+      "nome": "Mastar T3 - Turma D",
+      "cursoId": "mastar-t3",
+      "salaId": "sala-4",
+      "professorId": "prof-004",
+      "periodo": "2024-1",
+      "horario": "10:00-13:00",
+      "diaSemana": "quinta-feira",
+      "dataInicio": "2024-03-07",
+      "dataFim": "2024-07-04",
+      "vagas": 18,
+      "vagasOcupadas": 2,
+      "status": "ativa"
+    },
+    {
+      "id": "turma-005",
+      "nome": "VoxTime - Turma E",
+      "cursoId": "voxtime",
+      "salaId": "sala-5",
+      "professorId": "prof-005",
+      "periodo": "2024-1",
+      "horario": "15:00-18:00",
+      "diaSemana": "sexta-feira",
+      "dataInicio": "2024-03-08",
+      "dataFim": "2024-06-07",
+      "vagas": 18,
+      "vagasOcupadas": 5,
+      "status": "ativa"
+    },
+    {
+      "id": "turma-006",
+      "nome": "IntensiVox - Turma F",
+      "cursoId": "intensivox",
+      "salaId": "sala-6",
+      "professorId": "prof-006",
+      "periodo": "2024-1",
+      "horario": "09:30-12:30",
+      "diaSemana": "sábado",
+      "dataInicio": "2024-03-09",
+      "dataFim": "2024-05-04",
+      "vagas": 18,
+      "vagasOcupadas": 3,
+      "status": "ativa"
+    }
+  ],
+  "professores": [
+    {
+      "id": "prof-001",
+      "nome": "Dr. Roberto Silva",
+      "email": "roberto.silva@vox2you.com",
+      "especialidade": "Comunicação Empresarial",
+      "experiencia": "15 anos"
+    },
+    {
+      "id": "prof-002",
+      "nome": "Profª. Maria Santos",
+      "email": "maria.santos@vox2you.com",
+      "especialidade": "Oratória Básica",
+      "experiencia": "8 anos"
+    },
+    {
+      "id": "prof-003",
+      "nome": "Dr. João Oliveira",
+      "email": "joao.oliveira@vox2you.com",
+      "especialidade": "Comunicação Intermediária",
+      "experiencia": "12 anos"
+    },
+    {
+      "id": "prof-004",
+      "nome": "Profª. Ana Costa",
+      "email": "ana.costa@vox2you.com",
+      "especialidade": "Comunicação Avançada",
+      "experiencia": "20 anos"
+    },
+    {
+      "id": "prof-005",
+      "nome": "Carlos Mendes",
+      "email": "carlos.mendes@vox2you.com",
+      "especialidade": "Apresentações",
+      "experiencia": "10 anos"
+    },
+    {
+      "id": "prof-006",
+      "nome": "Profª. Lucia Fernandes",
+      "email": "lucia.fernandes@vox2you.com",
+      "especialidade": "Oratória Intensiva",
+      "experiencia": "18 anos"
+    }
+  ],
+  "alunos": [
+    {
+      "id": "aluno-001",
+      "nome": "Ana Silva",
+      "email": "ana.silva@email.com",
+      "telefone": "(11) 99999-0001",
+      "cpf": "111.111.111-11",
+      "dataNascimento": "1995-03-15",
+      "endereco": {
+        "rua": "Rua das Flores, 123",
+        "cidade": "São Paulo",
+        "cep": "01234-567"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-02-15"
+    },
+    {
+      "id": "aluno-002",
+      "nome": "Bruno Santos",
+      "email": "bruno.santos@email.com",
+      "telefone": "(11) 99999-0002",
+      "cpf": "222.222.222-22",
+      "dataNascimento": "1992-07-22",
+      "endereco": {
+        "rua": "Av. Paulista, 456",
+        "cidade": "São Paulo",
+        "cep": "01310-100"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-02-18"
+    },
+    {
+      "id": "aluno-003",
+      "nome": "Carla Oliveira",
+      "email": "carla.oliveira@email.com",
+      "telefone": "(11) 99999-0003",
+      "cpf": "333.333.333-33",
+      "dataNascimento": "1988-11-10",
+      "endereco": {
+        "rua": "Rua Augusta, 789",
+        "cidade": "São Paulo",
+        "cep": "01305-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-02-20"
+    },
+    {
+      "id": "aluno-004",
+      "nome": "Diego Ferreira",
+      "email": "diego.ferreira@email.com",
+      "telefone": "(11) 99999-0004",
+      "cpf": "444.444.444-44",
+      "dataNascimento": "1990-05-30",
+      "endereco": {
+        "rua": "Rua Oscar Freire, 321",
+        "cidade": "São Paulo",
+        "cep": "01426-001"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-02-22"
+    },
+    {
+      "id": "aluno-005",
+      "nome": "Elena Rodriguez",
+      "email": "elena.rodriguez@email.com",
+      "telefone": "(11) 99999-0005",
+      "cpf": "555.555.555-55",
+      "dataNascimento": "1993-09-14",
+      "endereco": {
+        "rua": "Rua da Consolação, 654",
+        "cidade": "São Paulo",
+        "cep": "01302-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-02-25"
+    },
+    {
+      "id": "aluno-006",
+      "nome": "Felipe Costa",
+      "email": "felipe.costa@email.com",
+      "telefone": "(11) 99999-0006",
+      "cpf": "666.666.666-66",
+      "dataNascimento": "1991-12-08",
+      "endereco": {
+        "rua": "Alameda Santos, 987",
+        "cidade": "São Paulo",
+        "cep": "01419-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-02-28"
+    },
+    {
+      "id": "aluno-007",
+      "nome": "Gabriela Lima",
+      "email": "gabriela.lima@email.com",
+      "telefone": "(11) 99999-0007",
+      "cpf": "777.777.777-77",
+      "dataNascimento": "1994-04-18",
+      "endereco": {
+        "rua": "Rua Bela Cintra, 159",
+        "cidade": "São Paulo",
+        "cep": "01415-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-01"
+    },
+    {
+      "id": "aluno-008",
+      "nome": "Henrique Alves",
+      "email": "henrique.alves@email.com",
+      "telefone": "(11) 99999-0008",
+      "cpf": "888.888.888-88",
+      "dataNascimento": "1989-08-25",
+      "endereco": {
+        "rua": "Rua Haddock Lobo, 753",
+        "cidade": "São Paulo",
+        "cep": "01414-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-03"
+    },
+    {
+      "id": "aluno-009",
+      "nome": "Isabela Rocha",
+      "email": "isabela.rocha@email.com",
+      "telefone": "(11) 99999-0009",
+      "cpf": "999.999.999-99",
+      "dataNascimento": "1996-01-12",
+      "endereco": {
+        "rua": "Rua Estados Unidos, 951",
+        "cidade": "São Paulo",
+        "cep": "01427-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-05"
+    },
+    {
+      "id": "aluno-010",
+      "nome": "João Pereira",
+      "email": "joao.pereira@email.com",
+      "telefone": "(11) 99999-0010",
+      "cpf": "101.010.101-01",
+      "dataNascimento": "1987-06-03",
+      "endereco": {
+        "rua": "Rua Pamplona, 357",
+        "cidade": "São Paulo",
+        "cep": "01405-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-08"
+    },
+    {
+      "id": "aluno-011",
+      "nome": "Karina Souza",
+      "email": "karina.souza@email.com",
+      "telefone": "(11) 99999-0011",
+      "cpf": "121.212.121-21",
+      "dataNascimento": "1998-10-27",
+      "endereco": {
+        "rua": "Rua Jesuíno Arruda, 486",
+        "cidade": "São Paulo",
+        "cep": "04532-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-10"
+    },
+    {
+      "id": "aluno-012",
+      "nome": "Lucas Martins",
+      "email": "lucas.martins@email.com",
+      "telefone": "(11) 99999-0012",
+      "cpf": "131.313.131-31",
+      "dataNascimento": "1985-02-19",
+      "endereco": {
+        "rua": "Rua Vergueiro, 642",
+        "cidade": "São Paulo",
+        "cep": "01504-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-12"
+    },
+    {
+      "id": "aluno-013",
+      "nome": "Marina Silva",
+      "email": "marina.silva@email.com",
+      "telefone": "(11) 99999-0013",
+      "cpf": "141.414.141-41",
+      "dataNascimento": "1992-11-16",
+      "endereco": {
+        "rua": "Rua Frei Caneca, 1285",
+        "cidade": "São Paulo",
+        "cep": "01307-002"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-15"
+    },
+    {
+      "id": "aluno-014",
+      "nome": "Nuno Cardoso",
+      "email": "nuno.cardoso@email.com",
+      "telefone": "(11) 99999-0014",
+      "cpf": "151.515.151-51",
+      "dataNascimento": "1986-07-04",
+      "endereco": {
+        "rua": "Rua da República, 128",
+        "cidade": "São Paulo",
+        "cep": "01045-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-18"
+    },
+    {
+      "id": "aluno-015",
+      "nome": "Olívia Santos",
+      "email": "olivia.santos@email.com",
+      "telefone": "(11) 99999-0015",
+      "cpf": "161.616.161-61",
+      "dataNascimento": "1997-04-21",
+      "endereco": {
+        "rua": "Rua 25 de Março, 974",
+        "cidade": "São Paulo",
+        "cep": "01021-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-20"
+    },
+    {
+      "id": "aluno-016",
+      "nome": "Paulo Ribeiro",
+      "email": "paulo.ribeiro@email.com",
+      "telefone": "(11) 99999-0016",
+      "cpf": "171.717.171-71",
+      "dataNascimento": "1991-08-07",
+      "endereco": {
+        "rua": "Rua do Gasômetro, 365",
+        "cidade": "São Paulo",
+        "cep": "04546-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-22"
+    },
+    {
+      "id": "aluno-017",
+      "nome": "Quintino Moreira",
+      "email": "quintino.moreira@email.com",
+      "telefone": "(11) 99999-0017",
+      "cpf": "181.818.181-81",
+      "dataNascimento": "1984-12-30",
+      "endereco": {
+        "rua": "Rua Liberdade, 518",
+        "cidade": "São Paulo",
+        "cep": "01503-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-25"
+    },
+    {
+      "id": "aluno-018",
+      "nome": "Rafaela Nunes",
+      "email": "rafaela.nunes@email.com",
+      "telefone": "(11) 99999-0018",
+      "cpf": "191.919.191-91",
+      "dataNascimento": "1999-01-11",
+      "endereco": {
+        "rua": "Rua Galvão Bueno, 692",
+        "cidade": "São Paulo",
+        "cep": "01506-000"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-28"
+    },
+    {
+      "id": "aluno-019",
+      "nome": "Samuel Torres",
+      "email": "samuel.torres@email.com",
+      "telefone": "(11) 99999-0019",
+      "cpf": "202.020.202-02",
+      "dataNascimento": "1983-05-17",
+      "endereco": {
+        "rua": "Rua São Bento, 847",
+        "cidade": "São Paulo",
+        "cep": "01011-100"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-03-30"
+    },
+    {
+      "id": "aluno-020",
+      "nome": "Tatiana Vaz",
+      "email": "tatiana.vaz@email.com",
+      "telefone": "(11) 99999-0020",
+      "cpf": "212.121.212-12",
+      "dataNascimento": "1995-09-23",
+      "endereco": {
+        "rua": "Rua XV de Novembro, 193",
+        "cidade": "São Paulo",
+        "cep": "01013-001"
+      },
+      "status": "ativo",
+      "dataMatricula": "2024-04-01"
+    }
+  ],
+  "matriculas": [
+    {
+      "id": "mat-001",
+      "alunoId": "aluno-001",
+      "turmaId": "turma-001",
+      "dataMatricula": "2024-02-15",
+      "status": "ativa",
+      "cadeira": "A1",
+      "pagamento": {
+        "valor": 2500.00,
+        "formaPagamento": "cartao",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-002",
+      "alunoId": "aluno-002",
+      "turmaId": "turma-002",
+      "dataMatricula": "2024-02-18",
+      "status": "ativa",
+      "cadeira": "A2",
+      "pagamento": {
+        "valor": 1800.00,
+        "formaPagamento": "boleto",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-003",
+      "alunoId": "aluno-003",
+      "turmaId": "turma-003",
+      "dataMatricula": "2024-02-20",
+      "status": "ativa",
+      "cadeira": "B1",
+      "pagamento": {
+        "valor": 1800.00,
+        "formaPagamento": "pix",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-004",
+      "alunoId": "aluno-004",
+      "turmaId": "turma-004",
+      "dataMatricula": "2024-02-22",
+      "status": "ativa",
+      "cadeira": "A3",
+      "pagamento": {
+        "valor": 1800.00,
+        "formaPagamento": "cartao",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "mat-005",
+      "alunoId": "aluno-005",
+      "turmaId": "turma-005",
+      "dataMatricula": "2024-02-25",
+      "status": "ativa",
+      "cadeira": "C1",
+      "pagamento": {
+        "valor": 1200.00,
+        "formaPagamento": "cartao",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-006",
+      "alunoId": "aluno-006",
+      "turmaId": "turma-001",
+      "dataMatricula": "2024-02-28",
+      "status": "ativa",
+      "cadeira": "B2",
+      "pagamento": {
+        "valor": 2500.00,
+        "formaPagamento": "transferencia",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-007",
+      "alunoId": "aluno-007",
+      "turmaId": "turma-002",
+      "dataMatricula": "2024-03-01",
+      "status": "ativa",
+      "cadeira": "B3",
+      "pagamento": {
+        "valor": 1800.00,
+        "formaPagamento": "boleto",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-008",
+      "alunoId": "aluno-008",
+      "turmaId": "turma-003",
+      "dataMatricula": "2024-03-03",
+      "status": "ativa",
+      "cadeira": "A4",
+      "pagamento": {
+        "valor": 1800.00,
+        "formaPagamento": "pix",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-009",
+      "alunoId": "aluno-009",
+      "turmaId": "turma-004",
+      "dataMatricula": "2024-03-05",
+      "status": "ativa",
+      "cadeira": "C2",
+      "pagamento": {
+        "valor": 1800.00,
+        "formaPagamento": "cartao",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-010",
+      "alunoId": "aluno-010",
+      "turmaId": "turma-005",
+      "dataMatricula": "2024-03-08",
+      "status": "ativa",
+      "cadeira": "A5",
+      "pagamento": {
+        "valor": 1200.00,
+        "formaPagamento": "boleto",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "mat-011",
+      "alunoId": "aluno-011",
+      "turmaId": "turma-006",
+      "dataMatricula": "2024-03-10",
+      "status": "ativa",
+      "cadeira": "B4",
+      "pagamento": {
+        "valor": 900.00,
+        "formaPagamento": "pix",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-012",
+      "alunoId": "aluno-012",
+      "turmaId": "turma-001",
+      "dataMatricula": "2024-03-12",
+      "status": "ativa",
+      "cadeira": "C3",
+      "pagamento": {
+        "valor": 2500.00,
+        "formaPagamento": "transferencia",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-013",
+      "alunoId": "aluno-013",
+      "turmaId": "turma-002",
+      "dataMatricula": "2024-03-15",
+      "status": "ativa",
+      "cadeira": "A6",
+      "pagamento": {
+        "valor": 1800.00,
+        "formaPagamento": "cartao",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-014",
+      "alunoId": "aluno-014",
+      "turmaId": "turma-005",
+      "dataMatricula": "2024-03-18",
+      "status": "ativa",
+      "cadeira": "B5",
+      "pagamento": {
+        "valor": 1200.00,
+        "formaPagamento": "boleto",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-015",
+      "alunoId": "aluno-015",
+      "turmaId": "turma-006",
+      "dataMatricula": "2024-03-20",
+      "status": "ativa",
+      "cadeira": "C4",
+      "pagamento": {
+        "valor": 900.00,
+        "formaPagamento": "pix",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-016",
+      "alunoId": "aluno-016",
+      "turmaId": "turma-005",
+      "dataMatricula": "2024-03-22",
+      "status": "ativa",
+      "cadeira": "C5",
+      "pagamento": {
+        "valor": 1200.00,
+        "formaPagamento": "cartao",
+        "status": "pendente"
+      }
+    },
+    {
+      "id": "mat-017",
+      "alunoId": "aluno-017",
+      "turmaId": "turma-001",
+      "dataMatricula": "2024-03-25",
+      "status": "ativa",
+      "cadeira": "A1",
+      "pagamento": {
+        "valor": 2500.00,
+        "formaPagamento": "transferencia",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-018",
+      "alunoId": "aluno-018",
+      "turmaId": "turma-001",
+      "dataMatricula": "2024-03-28",
+      "status": "ativa",
+      "cadeira": "B6",
+      "pagamento": {
+        "valor": 2500.00,
+        "formaPagamento": "boleto",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-019",
+      "alunoId": "aluno-019",
+      "turmaId": "turma-001",
+      "dataMatricula": "2024-03-30",
+      "status": "ativa",
+      "cadeira": "C6",
+      "pagamento": {
+        "valor": 2500.00,
+        "formaPagamento": "pix",
+        "status": "pago"
+      }
+    },
+    {
+      "id": "mat-020",
+      "alunoId": "aluno-020",
+      "turmaId": "turma-005",
+      "dataMatricula": "2024-04-01",
+      "status": "ativa",
+      "cadeira": "B1",
+      "pagamento": {
+        "valor": 1200.00,
+        "formaPagamento": "cartao",
+        "status": "pago"
+      }
+    }
+  ],
+  "salas": [
+    {
+      "id": "sala-1",
+      "nome": "Sala InCompany",
+      "capacidade": 18,
+      "andar": 1,
+      "equipamentos": ["projetor", "quadro", "ar-condicionado", "microfone"],
+      "status": "ativa"
+    },
+    {
+      "id": "sala-2",
+      "nome": "Sala Mastar T1",
+      "capacidade": 18,
+      "andar": 1,
+      "equipamentos": ["projetor", "quadro", "ar-condicionado"],
+      "status": "ativa"
+    },
+    {
+      "id": "sala-3",
+      "nome": "Sala Mastar T2",
+      "capacidade": 18,
+      "andar": 2,
+      "equipamentos": ["projetor", "quadro", "ar-condicionado"],
+      "status": "ativa"
+    },
+    {
+      "id": "sala-4",
+      "nome": "Sala Mastar T3",
+      "capacidade": 18,
+      "andar": 2,
+      "equipamentos": ["projetor", "quadro", "ar-condicionado", "microfone"],
+      "status": "ativa"
+    },
+    {
+      "id": "sala-5",
+      "nome": "Sala VoxTime",
+      "capacidade": 18,
+      "andar": 3,
+      "equipamentos": ["projetor", "quadro", "ar-condicionado"],
+      "status": "ativa"
+    },
+    {
+      "id": "sala-6",
+      "nome": "Sala IntensiVox",
+      "capacidade": 18,
+      "andar": 3,
+      "equipamentos": ["projetor", "quadro", "ar-condicionado", "microfone", "câmera"],
+      "status": "ativa"
+    }
+  ]
+}
