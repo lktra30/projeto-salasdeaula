@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Database, AlunoComTurma, Turma, Curso, Matricula, Professor, SalaCompleta } from '@/types/database';
+import { Database, AlunoComTurma, Turma } from '@/types/database';
 import databaseJson from '@/data/database.json';
 
 export function useDatabase() {
